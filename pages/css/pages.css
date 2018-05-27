@@ -11,9 +11,169 @@ body {
     padding: 25px;
 }
 
-img {
-    max-width: 100%; /* Afbeeldingen responsive maken */
-}
 
+
+img {
+    max-width: 30%; /* Afbeeldingen responsive maken */
+}
 /* Voeg jouw css hieraan toe */
 
+.h1 { 
+    font-weight: bold;
+    font-size: 200px;
+    text-transform: uppercase;
+}
+
+.h2 {
+    font-size: 100px;
+    font-weight: bold;
+    
+}
+
+.h2 {
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.h3 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.h4 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.button-text {
+    font-size: 40px;
+}
+
+p, a, li {
+    font-family: 'Karla', sans-serif;    
+}
+
+
+.typografie {
+    font-size: 20px; 
+    display: flex;
+}
+.titel {
+    color: #6EDDB8;
+}
+.vierkant { 
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+.lichtgroen {
+    background-color: #6EDDB8;    
+}
+
+.donkergroen {
+    background-color: #36908a;
+}
+
+.muntgroen {
+    background-color: #d0e8e1;    
+}
+
+.zwart {
+    background-color: #000000;    
+}
+.vierkanten {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 460px;
+}
+
+ .link {
+   color: #36908a;  
+   text-decoration: none;
+ }
+
+ .link:hover, .link:focus {
+    border-bottom: 1px solid #36908a;
+    padding-bottom: 2px;
+ }
+
+.knop {
+    font-family: 'Karla', sans-serif;    
+    color:white;
+    border: 0;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.knop-dark-bg {
+    background: transparent;
+    color: white;
+    box-shadow:inset 0px 0px 0px 2px white;
+}
+
+.knop-dark-bg:hover, .knop-dark-bg:focus {
+    box-shadow: unset;
+    background: white;
+    color: #6EDDB8;
+}
+
+.knop-primary {
+    background-color: #36908a;
+
+}
+
+.knop-secundary {
+    background-color: #6EDDB8;    
+}
+
+.knop-tiny {
+    font-size: 16px;
+    padding: 5px 15px;
+}
+
+.knop-primary:hover, .knop-primary:focus {
+    background: none;
+    color: #36908a;
+    box-shadow:inset 0px 0px 0px 2px #36908a;
+}
+
+.knop-secundary:hover, .knop-secundary:focus {
+    background: none;
+    box-shadow:inset 0px 0px 0px 2px #6EDDB8;
+    color: #6EDDB8;
+}
+
+.knop-tiny-text {
+    font-size: 16px;
+}
+
+.opsomming-gekleurd {
+    padding: 20px;
+    list-style-position: inside;
+    box-sizing: border-box;
+    background-color: #6EDDB8;
+}
+
+.opsomming-gekleurd li {
+    font-size: 30px;
+    color:white;
+    margin: 10px 0;
+    padding: 5px 0;
+    list-style-type: none;
+}
+
+.opsomming-gekleurd li::before {
+    content: " ";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-bottom: -6px;
+    background: url('../images/whitecheck.png') no-repeat;
+    margin-right: 10px;
+}
