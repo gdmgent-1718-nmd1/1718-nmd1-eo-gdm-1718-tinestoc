@@ -186,13 +186,14 @@ img {
     margin-right: 10px;
 }
 
-.menustandaard {
-    max-width: 20%;
-}
-.menuuitgeklapt {
-    max-width: 30%;
+.dropdownmenu {
+    max-width: 40%;
 }
 
 .vergroot {
     max-width: 15%;
+}
+
+.homeicon {
+    max-width: 20%;
 }
