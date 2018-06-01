@@ -18,48 +18,48 @@ img {
 }
 /* Voeg jouw css hieraan toe */
 
-.h1 { 
+.h1styleguide { 
     font-weight: bold;
-    font-size: 200px;
+    font-size: 60px;
     text-transform: uppercase;
 }
 
-.h2 {
-    font-size: 100px;
+.h2styleguide {
+    font-size: 40px;
     font-weight: bold;
     
 }
 
-.h2 {
+
+.h3styleguide {
     font-weight: bold;
-    font-size: 80px;
+    font-size: 30px;
 }
 
-.h3 {
-    font-weight: bold;
-    font-size: 60px;
-}
 
-.h4 {
-    font-weight: bold;
-    font-size: 40px;
-}
 
 .button-text {
     font-size: 40px;
 }
 
-p, a, li {
-    font-family: 'Karla', sans-serif;    
+.styleguide {
+    font-family: 'Karla', sans-serif; 
+    color: white;   
 }
 
 
 .typografie {
-    font-size: 20px; 
-    display: flex;
+    font-size: 18px; 
 }
+.typografiewit {
+    font-size: 18px; 
+    color: #ffffff;
+}
+
+
 .titel {
     color: #6EDDB8;
+    text-transform: uppercase;
 }
 .vierkant { 
     width: 100px;
@@ -81,6 +81,11 @@ p, a, li {
 .zwart {
     background-color: #000000;    
 }
+
+.white {
+    color: #ffffff;
+    margin-left: 10px;
+}
 .vierkanten {
     display: flex;
     flex-direction: row;
@@ -91,6 +96,8 @@ p, a, li {
  .link {
    color: #36908a;  
    text-decoration: none;
+   font-family: Karla, sans-serif;
+   font-size: 18px;
  }
 
  .link:hover, .link:focus {
@@ -125,6 +132,7 @@ p, a, li {
 
 .knop-primary {
     background-color: #36908a;
+    color: white;
 
 }
 
@@ -176,4 +184,15 @@ p, a, li {
     margin-bottom: -6px;
     background: url('../images/whitecheck.png') no-repeat;
     margin-right: 10px;
+}
+
+.menustandaard {
+    max-width: 20%;
+}
+.menuuitgeklapt {
+    max-width: 30%;
+}
+
+.vergroot {
+    max-width: 15%;
 }
