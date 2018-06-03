@@ -94,9 +94,15 @@ img {
     margin-left: 10px;
     margin-top: 65px;
     font-weight: bold;
-    font-family: Karla;
+    font-family: 'Karla';
+    font-size: 10pt;
+   
 }
-
+.bold {
+    font-family: 'Karla';
+    font-size: 16pt;
+    font-weight: bold;
+}
 .black {
     color: #000000;
     margin-left: 10px;
@@ -160,7 +166,7 @@ img {
 
 .knop-tiny {
     font-size: 16px;
-    padding: 5px 15px;
+    padding: 5px 20px;
 }
 
 .knop-primary:hover, .knop-primary:focus {
@@ -272,7 +278,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Karla, sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 
 .dropdown-element:nth-child(even) {
