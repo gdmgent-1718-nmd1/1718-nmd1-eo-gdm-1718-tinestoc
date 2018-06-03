@@ -86,6 +86,7 @@ img {
     background-color: #ffffff;
     border-style: solid;
     border-color: #000000;
+    box-sizing: border-box;
 }
 
 .white {
@@ -218,23 +219,23 @@ img {
 }
 
 .facebook {
-    height: 100px;
-    width: 100px;
+    height: 40px;
+    width: 40px;
 }
 .twitter {
-    height: 100px;
-    width: auto;
+    height: 40px;
+    width: 40px;
 }
 .youtube {
-    height: 100px;
-    width: auto;
+    height: 40px;
+    width: 40px;
 }
 .instagram {
     height: 100px;
     width: auto;
 }
 
-.homeicon ::before {
+.homeicon::before {
     max-width: 20%;
 }
 
@@ -309,90 +310,69 @@ img {
     box-sizing: border-box;
   }
 
-  .vr-image:hover .green-overlay {
-    opacity: 0.6;
-    height: 200px;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-  }
-
-  .vr-image:hover .left-arrow, .vr-image:hover .right-arrow {
-      background: #d0e8e1;
-  }
-
-  .green-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #36908a;
-    opacity: 0.3;
-    height: 100%;
-    width: 100%;
-    color:transparent
-  }
-  .left-arrow, .right-arrow {
-      width: 30px;
-      height: 30px;
-      background: #6EDDB8;
-      position: absolute;
-      z-index: 5;
-      opacity: 1;
-  }
-
-  .left-arrow {
-    top: calc((100% - 50px)/2);
-    left: -10px;
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: FlipH;  
-  }
-
-  .right-arrow {
-    top: calc((100% - 50px)/2);
-    right: -10px;
-  }
-
-  .vr-image {
-      position: relative;
-      width: 300px;
-  }
-  .vr-image .special-image{
-      width: 100%;
-      height: auto;
-      display: block;
-      max-width: unset;
-  }
-
+  
  
 .nav {
+    align-items: center;
     background-color: white;
     color: #000000;
     list-style: none;
     text-align: right;
-    padding: 2Opx 0 20px 0;
     text-transform: uppercase;
     font-weight: bold;
     display: flex;
+    padding: 0;
+    flex-grow: 2;
+    justify-content: space-around;
 }
 
 .nav > li {
     display: flex;
-    padding-left: 50px;
 
 }
 
-.nav > li > a{
+.nav > li > .link{
     text-decoration: none;
     color: #000000;
+    border-bottom: 3px transparent solid;
+    
 }
 
-.nav > li > a:hover {
+.nav > li > .link:hover {
     color: #6eddb8;
     border-bottom: 3px #6eddb8 solid;
 
+}
+
+.nav-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.home-link .nav-icon {
+    background: transparent;
+}
+
+.nav-icon:hover .cls-2 {
+    fill:#6EDDB8;
+}
+
+.home-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-link .home-icon {
+    padding: 0;
+    width: 20px;
+}
+
+.navigatiebalk {
+    display: flex;
+}
+
+.silvermonkeylogo {
+    width: 100px;
+    max-width: unset;
 }
